@@ -23,7 +23,7 @@ export default function Login() {
   return (
     <div style={{ minHeight: '90vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f4f1eb' }}>
       <div style={{ width: 380, background: '#fff', borderRadius: 14, padding: '2.5rem', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
-        <h2 style={{ margin: '0 0 0.3rem', fontFamily: 'Georgia, serif' }}>⚖️ Welcome back</h2>
+        <h2 style={{ margin: '0 0 0.3rem', fontFamily: 'Georgia, serif',color:'#704c59' }}>⚖️ Welcome back</h2>
         <p style={{ color: '#888', fontSize: 14, marginBottom: '1.8rem' }}>Login to access your documents</p>
         <label style={{ fontSize: 13, color: '#555' }}>Email</label>
         <input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })}
